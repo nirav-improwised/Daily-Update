@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <title>Buttons | Bootstrap</title>
+</head>
+<body>
+    <div style="padding: 20px 20px;">
+        <h2>Normal Buttons</h2>
+        <button type="button" class="btn btn-primary">Primary</button>
+        <button type="button" class="btn btn-secondary">Secondary</button>
+        <button type="button" class="btn btn-success">Success</button>
+        <button type="button" class="btn btn-danger">Danger</button>
+        <button type="button" class="btn btn-warning">btn-warning</button>
+        <button type="button" class="btn btn-light">btn-light</button>
+        <button type="button" class="btn btn-dark">btn-dark</button>
+        <button type="button" class="btn btn-link">btn-link</button>
+
+        <h2 style="margin-top: 25px;">Outline Buttons</h2>
+        <button type="button" class="btn btn-outline-primary">outline-primary</button>
+        <button type="button" class="btn btn-outline-secondary">outline-secondary</button>
+
+        <h2 style="margin-top: 25px;">Using btn class with Tags</h2>
+        <input type="button" class="btn btn-outline-primary" value="Button" name="" id="">
+        <input type="submit" class="btn btn-success" value="submit" disabled> <!--disabled-->
+        <!-- trying btn class on text box -->
+        <input type="text" class="btn" placeholder="Text">
+        <a href="#" class="btn btn-outline-primary">a.btn-outline-primary</a>
+
+        <h2 style="margin-top: 25px;">Large & Small buttons</h2>
+        <button type="button" class="btn btn-outline-primary btn-lg">outline primary large</button>
+        <button type="button" class="btn btn-outline-primary">outline primary normal</button>
+        <button type="button" class="btn btn-outline-primary btn-sm">outline primary small</button>
+
+        <h2 style="margin-top: 25px;">Disabling Button</h2>
+        <!-- disable attribute does NOT work on anchor tag -->
+        <a href="#" class="btn btn-outline-primary" role="button" disabled>a.btn-outline-primary</a>
+        <button type="button" class="btn btn-outline-primary btn-sm" disabled>outline primary small</button>
+
+        <h2 style="margin-top: 25px;">btn toolbar</h2>
+        <!-- Copied below code from Docs -->
+        <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+            <div class="btn-group me-2" role="group" aria-label="First group">
+              <button type="button" class="btn btn-primary">1</button>
+              <button type="button" class="btn btn-primary">2</button>
+              <button type="button" class="btn btn-primary">3</button>
+              <button type="button" class="btn btn-primary">4</button>
+            </div>
+            <div class="btn-group me-2" role="group" aria-label="Second group">
+              <button type="button" class="btn btn-secondary">5</button>
+              <button type="button" class="btn btn-secondary">6</button>
+              <button type="button" class="btn btn-secondary">7</button>
+            </div>
+            <div class="btn-group" role="group" aria-label="Third group">
+              <button type="button" class="btn btn-info">8  </button>
+            </div>
+          </div>
+        
+    </div>
+</body>
+</html>
