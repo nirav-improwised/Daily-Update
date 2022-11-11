@@ -63,33 +63,36 @@
 // }
 // alien.person.sentence();
 
-function s(x) {
+// function s(x) {
 	// if (isNaN(x)) {
 	//   return NaN;
 	// }
 	// return x;
-	return isNaN(x)
-  }
+	// return isNaN(x)
+  // }
   
-  console.log(s('1.1'));
+  // console.log(s('1.1'));
   // expected output: "1"
   
-  console.log(s('NotANumber'));
+  // console.log(s('NotANumber'));
   // expected output: NaN
 
-  if (NaN){
-	console.log("This statement will NOT get logged as NaN is Falsy")
-  }
+  // if (NaN){
+	// console.log("This statement will NOT get logged as NaN is Falsy")
+  // }
   
-  console.log(typeof null)
-  console.log(typeof undefined)
-  console.log(typeof NaN)
-  console.log(typeof 10)
+  // console.log(typeof null)
+  // console.log(typeof undefined)
+  // console.log(typeof NaN)
+  // console.log(typeof 10)
 
-  let h = {}
-  console.log(h)
-  console.log(typeof h)
+  // let h = {}
+  // console.log(h)
+  // console.log(typeof h)
 
-  let g = []
-  console.log(g)
-  console.log(typeof g)
+  // let g = []
+  // console.log(g)
+  // console.log(typeof g)
+
+  // let k=[1,2,3]
+  // console.log("k", typeof k)
